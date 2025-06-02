@@ -20,9 +20,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --repo=https://github.com/WilliamBenjamimFole/Projecto-guia-de-caloiros.git"
-  },
+    "predeploy": "npm run build",    
+    "deploy": "gh-pages -d build"
+      },
   "eslintConfig": {
     "extends": [
       "react-app",
