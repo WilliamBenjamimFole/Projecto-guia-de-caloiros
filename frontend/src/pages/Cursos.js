@@ -18,7 +18,7 @@ function Cursos() {
 
           <div className="courses-grid">
             <div className="course-card" data-category="undergrad">
-              <img src="/imagens/IT.jpeg" alt="Engenharia Informática" />
+              <img src="/IT.jpeg" alt="Engenharia Informática" />
               <div className="course-info">
                 <h3>Engenharia Informática</h3>
                 <p className="duration">Duração: 4 anos</p>
@@ -28,7 +28,7 @@ function Cursos() {
             </div>
 
             <div className="course-card" data-category="undergrad">
-              <img src="/imagens/mines.jpeg" alt="Engenharia de Minas" />
+              <img src="/mines.jpeg" alt="Engenharia de Minas" />
               <div className="course-info">
                 <h3>Engenharia de Minas</h3>
                 <p className="duration">Duração: 4 anos</p>
@@ -38,7 +38,7 @@ function Cursos() {
             </div>
 
             <div className="course-card" data-category="postgrad">
-              <img src="/imagens/process.jpeg" alt="Processamento mineral" />
+              <img src="/process.jpeg" alt="Processamento mineral" />
               <div className="course-info">
                 <h3>Processamento Mineral</h3>
                 <p className="duration">Duração: 2 anos</p>
@@ -48,7 +48,7 @@ function Cursos() {
             </div>
 
             <div className="course-card" data-category="postgrad">
-              <img src="/imagens/accnt.jpeg" alt="Contabilidade" />
+              <img src="/accnt.jpeg" alt="Contabilidade" />
               <div className="course-info">
                 <h3>Contabilidade</h3>
                 <p className="duration">Duração: 2 anos</p>
@@ -58,7 +58,7 @@ function Cursos() {
             </div>
 
             <div className="course-card" data-category="postgrad">
-              <img src="/imagens/accnt.jpeg" alt="Contabilidade e Administração Pública" />
+              <img src="/accnt.jpeg" alt="Contabilidade e Administração Pública" />
               <div className="course-info">
                 <h3>Contabilidade e Administração Pública</h3>
                 <p className="duration">Duração: 2 anos</p>

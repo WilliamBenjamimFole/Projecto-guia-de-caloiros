@@ -8,7 +8,7 @@ function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
-            <img src="/imagens/logo.png" alt="ISPT Logo" />
+            <img src="/logo.png" alt="ISPT Logo" />
             <p>Instituto Superior Politécnico de Tete</p>
           </div>
           <div className="footer-links">

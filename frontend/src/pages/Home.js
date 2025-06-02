@@ -10,7 +10,7 @@ function Home() {
       <section
         style={{
           background:
-            "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/imagens/campus.png')",
+            "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/campus.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -54,7 +54,7 @@ function Home() {
               <p>A Direção</p>
             </div>
             <div class="welcome-image">
-              <img src="/imagens/graduacao.jpg" alt="Graduacao" />
+              <img src="/graduacao.jpg" alt="Graduacao" />
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@ function Home() {
             <video
               width="560"
               height="415"
-              src="/imagens/Slide.mp4"
+              src="/Slide.mp4"
               frameborder="0"
               allowfullscreen
             ></video>
@@ -101,7 +101,7 @@ function Home() {
           <div class="testimonial-grid">
             <div class="testimonial">
               <div class="student-photo">
-                <img src="/imagens/graduacao.jpg" alt="Ferrao Mario" />
+                <img src="/graduacao.jpg" alt="Ferrao Mario" />
               </div>
               <blockquote>
                 "O ISPT proporcionou-me uma formação prática e atualizada que me
@@ -158,7 +158,7 @@ function Home() {
           <div className="facility-grid">
             {/* Biblioteca */}
             <div className="facility-card">
-              <img src="/imagens/Biblioteca.jpg" alt="Biblioteca" />
+              <img src="/Biblioteca.jpg" alt="Biblioteca" />
               <h3>Biblioteca Multimédia</h3>
               <ul>
                 <li>+20.000 volumes físicos</li>
@@ -169,7 +169,7 @@ function Home() {
 
             {/* Laboratórios */}
             <div className="facility-card">
-              <img src="/imagens/lab.jpg" alt="Laboratórios" />
+              <img src="/lab.jpg" alt="Laboratórios" />
               <h3>Laboratórios Especializados</h3>
               <ul>
                 <li>Robótica e Automação</li>
@@ -180,7 +180,7 @@ function Home() {
 
             {/* Área de Convívio */}
             <div className="facility-card">
-              <img src="/imagens/campus2.jpg" alt="Área de Convívio" />
+              <img src="/campus2.jpg" alt="Área de Convívio" />
               <h3>Área de Convívio</h3>
               <ul>
                 <li>Espaço para interação entre estudantes</li>
@@ -191,7 +191,7 @@ function Home() {
 
             {/* Incubadora de Empresas */}
             <div className="facility-card">
-              <img src="/imagens/incubadora.jpg" alt="Incubadora de Empresas" />
+              <img src="/incubadora.jpg" alt="Incubadora de Empresas" />
               <h3>Incubadora de Empresas</h3>
               <ul>
                 <li>Suporte a startups estudantis</li>
@@ -202,7 +202,7 @@ function Home() {
 
             {/* Auditório */}
             <div className="facility-card">
-              <img src="/imagens/auditorio.jpg" alt="Auditório" />
+              <img src="/auditorio.jpg" alt="Auditório" />
               <h3>Auditório</h3>
               <ul>
                 <li>Capacidade para 300 pessoas</li>
@@ -213,7 +213,7 @@ function Home() {
 
             {/* Campus */}
             <div className="facility-card">
-              <img src="/imagens/campus2.jpg" alt="Campus" />
+              <img src="/campus2.jpg" alt="Campus" />
               <h3>Campus</h3>
               <ul>
                 <li>Ambiente limpo e arborizado</li>
@@ -224,7 +224,7 @@ function Home() {
 
             {/* Departamentos */}
             <div className="facility-card">
-              <img src="/imagens/dep1.jpg" alt="Departamentos" />
+              <img src="/dep1.jpg" alt="Departamentos" />
               <h3>Departamentos Acadêmicos</h3>
               <ul>
                 <li>Engenharia e Gestão</li>
@@ -237,7 +237,7 @@ function Home() {
 
             {/* Bloco de Informática */}
             <div className="facility-card">
-              <img src="/imagens/informatica.jpg" alt="Bloco de Informática" />
+              <img src="/informatica.jpg" alt="Bloco de Informática" />
               <h3>Bloco de Informática</h3>
               <ul>
                 <li>Laboratórios com computadores modernos</li>
@@ -248,7 +248,7 @@ function Home() {
 
             {/* Reprografia */}
             <div className="facility-card">
-              <img src="/imagens/reprografica.jpg" alt="Reprografia" />
+              <img src="/reprografica.jpg" alt="Reprografia" />
               <h3>Reprografia</h3>
               <ul>
                 <li>Serviços de impressão e cópias</li>
@@ -259,7 +259,7 @@ function Home() {
 
             {/* Direção */}
             <div className="facility-card">
-              <img src="/imagens/direccao.jpg" alt="Direção" />
+              <img src="/direccao.jpg" alt="Direção" />
               <h3>Direção</h3>
               <ul>
                 <li>Gestão institucional e pedagógica</li>
@@ -270,7 +270,7 @@ function Home() {
 
             {/* Serviço de Estudante */}
             <div className="facility-card">
-              <img src="/imagens/estudante.jpg" alt="Serviço de Estudante" />
+              <img src="/estudante.jpg" alt="Serviço de Estudante" />
               <h3>Serviço de Estudante</h3>
               <ul>
                 <li>Matrículas, declarações e apoio académico</li>
@@ -284,9 +284,9 @@ function Home() {
       <section class="gallery-section">
         <h2>Conheça o Nosso Campus</h2>
         <div class="gallery">
-          <img src="/imagens/campus4.jpg" alt="Campus do ISPT" />
-          <img src="/imagens/campus3.jpg" alt="Estudantes no campus" />
-          <img src="/imagens/campus2.jpg" alt="Eventos para caloiros" />
+          <img src="/campus4.jpg" alt="Campus do ISPT" />
+          <img src="/campus3.jpg" alt="Estudantes no campus" />
+          <img src="/campus2.jpg" alt="Eventos para caloiros" />
         </div>
       </section>
 

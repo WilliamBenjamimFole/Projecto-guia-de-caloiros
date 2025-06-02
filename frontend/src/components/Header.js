@@ -7,7 +7,7 @@ function Header() {
   return (
     <header>
       <div className="logo-container">
-        <img src="imagens/logo.png" alt="ISPT" className="logo" />
+        <img src="/logo.png" alt="ISPT" className="logo" />
         <div className="header-text">
           <h1>Instituto Superior Politécnico de Tete</h1>
           <p>Bem-vindos, Caloiros 2025!</p>
