@@ -1,0 +1,236 @@
+/* src/styles/Cursos.css */
+
+/* Variables */
+:root {
+  --primary: #2c3e50;
+  --secondary: #3498db;
+  --accent: #e74c3c;
+  --light: #ecf0f1;
+  --dark: #2c3e50;
+  --text: #333;
+  --text-light: #777;
+  --white: #fff;
+  --gray: #95a5a6;
+  --light-gray: #f5f7fa;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+}
+
+/* Main Container */
+.courses-section {
+  padding: 80px 0;
+  background-color: var(--light-gray);
+}
+
+.courses-section .container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Section */
+.courses-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.courses-section h2 {
+  margin-bottom: 20px;
+  color: var(--primary);
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.courses-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: var(--secondary);
+}
+
+/* Filter Section */
+.course-filter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.course-filter .btn {
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: var(--white);
+  color: var(--primary);
+  border: 1px solid var(--secondary);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.course-filter .btn.active,
+.course-filter .btn:hover {
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+/* Courses Grid - Flexbox Version */
+.courses-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.course-card {
+  flex: 1 1 300px;
+  max-width: 350px;
+  background-color: var(--white);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+
+.course-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Course Details Section - Flexbox */
+.course-details {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  padding: 40px;
+  margin: 40px 0;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+
+.tab-header {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--light-gray);
+  margin-bottom: 30px;
+  gap: 10px;
+}
+
+/* FAQ Section - Flexbox */
+.faq-courses {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  padding: 40px;
+  margin: 40px 0;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Common Content Styles */
+.course-info {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.course-info h3 {
+  margin: 0 0 10px;
+  color: var(--primary);
+  font-size: 1.4rem;
+}
+
+.course-info .duration {
+  color: var(--secondary);
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.course-info p {
+  color: var(--text);
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.course-info .btn {
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+.tab-content {
+  display: none;
+  animation: fadeIn 0.5s ease;
+}
+
+.tab-content.active {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.downloads {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .course-card {
+    flex: 1 1 250px;
+  }
+  
+  .course-details,
+  .faq-courses {
+    padding: 30px 20px;
+  }
+  
+  .tab-header {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .course-filter {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .course-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+  
+  .downloads {
+    flex-direction: column;
+  }
+  
+  .downloads .btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
