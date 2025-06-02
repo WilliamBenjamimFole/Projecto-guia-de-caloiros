@@ -1,6 +1,5 @@
- // src/App.js
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Cursos from "./pages/Cursos";
 import Cadastro from "./pages/Cadastro";
@@ -9,10 +8,6 @@ import Contacto from "./pages/Contacto";
 import Forum from "./pages/Forum";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-
-
-
-
 
 function App() {
   return (

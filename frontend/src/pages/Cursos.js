@@ -25,7 +25,7 @@ function Cursos() {
 
           <div className="courses-grid">
             <div className="course-card" data-category="undergrad">
-              <img src="/IMAGENS/IT.jpeg" alt="Engenharia Informática" />
+              <img src="/imagens/IT.jpeg" alt="Engenharia Informática" />
               <div className="course-info">
                 <h3>Engenharia Informática</h3>
                 <p className="duration">Duração: 4 anos</p>
@@ -110,7 +110,7 @@ function Cursos() {
             </section>
 
             <div class="course-card" data-category="undergrad">
-              <img src="/IMAGENS/mines.jpeg" alt="Engenharia de Minas" />
+              <img src="/imagens/mines.jpeg" alt="Engenharia de Minas" />
               <div class="course-info">
                 <h3>Engenharia de Minas</h3>
                 <p class="duration">Duração: 4 anos</p>
@@ -125,7 +125,7 @@ function Cursos() {
             </div>
 
             <div class="course-card" data-category="postgrad">
-              <img src="/IMAGENS/process.jpeg" alt="Processamento mineral" />
+              <img src="/imagens/process.jpeg" alt="Processamento mineral" />
               <div class="course-info">
                 <h3>Processamento mineral</h3>
                 <p class="duration">Duração: 4 anos</p>
@@ -140,7 +140,7 @@ function Cursos() {
             </div>
 
             <div class="course-card" data-category="postgrad">
-              <img src="/IMAGENS/accnt.jpeg" alt="Contabilidade" />
+              <img src="/imagens/accnt.jpeg" alt="Contabilidade" />
               <div class="course-info">
                 <h3>Contabilidade</h3>
                 <p class="duration">Duração: 4 anos</p>
@@ -156,7 +156,7 @@ function Cursos() {
 
             <div class="course-card" data-category="postgrad">
               <img
-                src="/IMAGENS/accnt.jpeg"
+                src="/imagens/accnt.jpeg"
                 alt="Contabilidade e administracao publica"
               />
               <div class="course-info">
