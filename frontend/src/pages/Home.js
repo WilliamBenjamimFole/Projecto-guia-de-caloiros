@@ -7,7 +7,18 @@ function Home() {
   return (
     <>
       <Header />
-      <section className="hero">
+      <section
+        style={{
+          background:
+            "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/imagens/campus.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          color: "#fff",
+          padding: "100px 20px",
+          textAlign: "center",
+        }}
+      >
         <div className="hero-content">
           <h2>Uma nova jornada acadêmica começa aqui!</h2>
           <p>Seja bem-vindo ao ISPT Tete, onde o seu futuro toma forma.</p>
@@ -43,7 +54,7 @@ function Home() {
               <p>A Direção</p>
             </div>
             <div class="welcome-image">
-              <img src="/imagens/graduacao.jpg" alt="Graduacao"/>
+              <img src="/imagens/graduacao.jpg" alt="Graduacao" />
             </div>
           </div>
         </div>
@@ -218,7 +229,9 @@ function Home() {
               <ul>
                 <li>Engenharia e Gestão</li>
                 <li>Equipes docentes qualificadas</li>
-                <li>Salas de aulas, de Docentes e de atendimento ao estudante</li>
+                <li>
+                  Salas de aulas, de Docentes e de atendimento ao estudante
+                </li>
               </ul>
             </div>
 
@@ -257,10 +270,7 @@ function Home() {
 
             {/* Serviço de Estudante */}
             <div className="facility-card">
-              <img
-                src="/imagens/estudante.jpg"
-                alt="Serviço de Estudante"
-              />
+              <img src="/imagens/estudante.jpg" alt="Serviço de Estudante" />
               <h3>Serviço de Estudante</h3>
               <ul>
                 <li>Matrículas, declarações e apoio académico</li>
